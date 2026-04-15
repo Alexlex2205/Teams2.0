@@ -1,3 +1,18 @@
 body{
     background-color: pink;
 }
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.slides img {
+  width: 100%;
+  scroll-snap-align: start;
+}
