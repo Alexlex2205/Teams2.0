@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -15,4 +16,10 @@ body{
 .slides img {
   width: 100%;
   scroll-snap-align: start;
+  width: 100%;
+  max-width: 250px;
+  max-height: 400px;
+  object-fit: cover;
+  scroll-snap-align: start;
+  flex-shrink: 0;
 }
